@@ -21,7 +21,7 @@ override.tf.json
 
 # Ignore provider binaries
 *.exe
-*.zip
+
 
 # Keep main project folders
 !Infrastructure/
