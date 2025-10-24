@@ -1,28 +1,5 @@
-# Ignore all Terraform working directories
 **/.terraform/*
-
-# Ignore Terraform state files
+*.exe
 *.tfstate
 *.tfstate.*
-
-# Ignore crash logs
 crash.log
-crash.*.log
-
-# Ignore override and plan files
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-*.tfplan
-
-# Ignore Terraform lock file
-.terraform.lock.hcl
-
-# Ignore provider binaries
-*.exe
-
-
-# Keep main project folders
-!Infrastructure/
-!Terraform/
